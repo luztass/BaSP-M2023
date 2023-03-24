@@ -1,7 +1,6 @@
-# Readme Example
+# Become a Software Professional 2023
 
-```
-1. 
-```
+## Week 01
+During week 01 we had to 
 
-## Secondary Title 
+## Week 02
