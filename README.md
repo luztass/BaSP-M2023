@@ -27,4 +27,24 @@ Together with my team we had to create the coach/trainer's screenflow.
 
 ## Week 02
 ### _Creating an HTML document_
-During week 02 we had to learn how to use Git and GitHub and learn how to create a HTML document. 
+During week 02 we had to learn how to use Git and [GitHub](https://github.com/) and learn how to create a HTML document. 
+
+We created an HTML document with the same content as the screenflow landing of the first week adding all the content that is visible (title, subtitles, date, text, images, links, etc.) respecting the semantic elements of HTML and saving progress to a public Github repository. 
+
+The landing page we had to follow was this below:
+![LAN-01 - Desktop 02](https://user-images.githubusercontent.com/127448693/227733046-5441c74e-a38d-43c7-bc0b-8e62230d7e6f.png)
+
+These were the steps to follow:
+
+- Create a repository on [Github](https://github.com/) called: “BaSP-M2023”.
+- Create a folder on the computer called “BaSP-M2023”. 
+- Initialize git by configuring the remote repository. 
+- Create an _index.html_ file and recreate the landing.
+- Add in the root folder "BaSP-M2023" a Readme.md file.
+- Make commits and push with progress.
+
+
+
+
+
+
