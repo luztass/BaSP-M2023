@@ -40,7 +40,8 @@ These were the steps to follow:
 - Add in the root folder "BaSP-M2023" a Readme.md file.
 - Make commits and push with progress.
 
-
+## Authors
+María Luz Tasselli.
 
 
 
