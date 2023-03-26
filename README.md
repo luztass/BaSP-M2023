@@ -31,9 +31,6 @@ During week 02 we had to learn how to use Git and [GitHub](https://github.com/) 
 
 We created an HTML document with the same content as the screenflow landing of the first week adding all the content that is visible (title, subtitles, date, text, images, links, etc.) respecting the semantic elements of HTML and saving progress to a public Github repository. 
 
-The landing page we had to follow was this below:
-![LAN-01 - Desktop 02](https://user-images.githubusercontent.com/127448693/227733046-5441c74e-a38d-43c7-bc0b-8e62230d7e6f.png)
-
 These were the steps to follow:
 
 - Create a repository on [Github](https://github.com/) called: “BaSP-M2023”.
