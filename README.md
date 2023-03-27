@@ -12,7 +12,7 @@ _Mega Rocket_ is a gym with members and employees who are able to access the web
 Together with my team we had to create the coach/trainer's screenflow.
 
 > The trainer's profile entered the platform 
->  using an email and password and on the main
+> using an _email and password_ and on the main
 > screen they could see the schedule of
 > activities to which they were assigned. They
 > had access to a view of the basic personal
@@ -24,12 +24,17 @@ Together with my team we had to create the coach/trainer's screenflow.
 > have at least one assigned activity (weight
 > training, boxing, spinning, crossfit).
 
-
+To create the screenflow we had to follow these steps below:
+- Download and create an account in [Figma](https://www.figma.com/)
+- Create the screens in a coherent and cohesive way having into account colours and being consistent in the design.
+- Using the prototype tool to make all the connections possible to create the screenflow.
+- Make corrections and work on edition.
+__________________________________________________
 ## Week 02
 ### _Creating an HTML document_
 During week 02 we had to learn how to use Git and [GitHub](https://github.com/) and learn how to create a HTML document. 
 
-We created an HTML document with the same content as the screenflow landing of the first week adding all the content that is visible (title, subtitles, date, text, images, links, etc.) respecting the semantic elements of HTML and saving progress to a public Github repository. 
+During this second week, the task was completed individually. I created an HTML document with the same content as the screenflow landing of the first week adding all the content that was visible (title, subtitles, text, images, links, etc.) respecting the semantic elements of HTML and saving progress to a public Github repository. 
 
 These were the steps to follow:
 
