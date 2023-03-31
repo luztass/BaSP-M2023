@@ -45,7 +45,24 @@ These were the steps to follow:
 - Add in the root folder "BaSP-M2023" a Readme.md file.
 - Make commits and push with progress.
 
-## Authors
+__________________________________________________
+## Week 03
+### _Using CSS_
+During week 03 our aim was to include the corresponding styles to the HTML structure of week 02 to ensure that it looks identical to the landing of the screenflow of week 01 in the desktop view. The progress has been saved within the same public [GitHub](https://github.com/) repository from week 02. 
+
+This week we had to follow these steps below:
+
+- Read our tutors' feedback and correct the mistakes in the HTML structure of week 02.
+- Create a new folder called Week-03 inside the repository created last week.
+- Copy the index.html created in week 02 and paste it into the new folder.
+- Create a CSS file to style the HTML and achieve an identical look to the screenflow landing from week 01.
+- Make commits and save the changes to GIT and push them to Github.
+- Update the README.md file.
+
+### _Learning about CSS_
+In order to learn how to use CSS (Cascading Style Sheets) we had material available so as to have enough practice. It was important to learn new syntax (selectors, declarations, properties and values) and acquire enough knowledge to be able to fix the first HTML and style it to achieve an identical look to the landing page of MegaRocket SA's webpage.
+
+## Author
 María Luz Tasselli.
 
 
