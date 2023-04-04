@@ -6,50 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MegaRocket GYM</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/reset.css">
 </head>
 <body>
-    <header>
-        <div id="header">
-        <img alt="header" src="..\assets\images\header.png">
-        </div>
+    <header class="header">
+        <img class="headericon" alt="header" src="..\assets\images\header.png">
+        <img class="menuicon" src="..\assets\images\menu-icon.png">
+        <img class="logomegarocket" alt= "logo" src="..\assets\images\logo.png">
+        <img class="megarockettext" alt="MegaRocket" src="..\assets\images\mega-rocket-text.png">
     </header>
-    <aside>
-        <div class="sidebar">
+    <aside class="sidebar">
+        <div class="links">
             <ul>
                 <li><a href="homeLink">Home</a></li>
-                <hr>
+                <div class="division"></div>
                 <li><a href="singUpLink">Sign Up</a></li>
-                <hr>
+                <div class="division"></div>
                 <li><a href="loginLink">Login</a></li>
-                <hr>
-                <li><a href="contactLink">Contact</a></li>
-                <img alt="arrow" src="..\assets\images\arrow.png">
-                <hr>
-            </ul>
-            <side class="getintouch"><a href="getInTouchLink">Get in touch</a></side>
-            <ul>
-                <li>
-                    <img alt="Email symbol" src="..\assets\images\email-logo.png">
-                    <a href="mailLink">RocketSA@gmail.com</a>
-                </li>
-                <hr>
-                <li>
-                    <img alt="Phone symbol" src="..\assets\images\phone-logo.png">
-                    <a href="phoneLink">(000) 000-000000</a>
-                </li>
-                <hr>
-                <li>
-                    <img alt="House symbol" src="..\assets\images\address-logo.png">
-                    <a href="addressLink">Somewhere, Zeballos 1410</a>
-                </li>
-                <hr>
+                <div class="division"></div>
+                <li><a href="contactLink"><span class="contact">Contact</span></a></li>
+                <img class="arrow" alt="arrow" src="..\assets\images\arrow.png">
+                <div class="division"></div>
             </ul>
         </div>
+            <a href="getInTouchLink"><span class="getintouch">Get in touch</span></a>
+            <div class="contactinfo">
+            <ul>
+                <li>
+                    <img class= img alt="Email symbol" src="..\assets\images\email-logo.png">
+                    <a href="mailLink">RocketSA@gmail.com</a>
+                </li>
+                <div class="division"></div>
+                <li>
+                    <img class= img alt="Phone symbol" src="..\assets\images\phone-logo.png">
+                    <a href="phoneLink">(000) 000-000000</a>
+                </li>
+                <div class="division"></div>
+                <li>
+                    <img class= img alt="House symbol" src="..\assets\images\address-logo.png">
+                    <a href="addressLink">Somewhere, Zeballos 1410</a>
+                </li>
+                <div class="division"></div>
+            </ul>
+            </div>
     </aside>
-    <main>
-    <section>
-        <div class="introduction">
-            <h1><span class="mega">Mega</span>Rocket GYM</h1>
+    <main class="main">
+    <section class="introduction">
+        <h1><span class="mega">Mega</span>Rocket GYM</h1>
             <h2>Launch your fitness journey with <span class="MegaRocket">MegaRocket</span></h2>
                 <img class= "img1" alt="Gym Weights" src="..\assets\images\gym-weight.png" width="596px" height="484px">
                 <p>
@@ -69,15 +72,14 @@
                 that fitness is a lifestyle, not just a hobby. Join us today and start yourjourney
                 towards a healthier, happier you.
                 </p>
-        </div>
     </section>
-    <div class="meetus">
-    <section>
+    <div class="aside"></div>
+    <section class="meetus">
         <h2>Meet us:</h2>
-        <div class="row">
+            <div class="row">
             <div class="column">
                 <img alt="Book an appointment" src="..\assets\images\booking-symbol.png" width="150px">
-                <h3>Book an appointment</h3>
+            <h3>Book an appointment</h3>
                 <p>Book your turn for a visit, come and meet us!</p>
             </div>
             <div class="column">
@@ -101,8 +103,8 @@
             </div>
     </section>
     </div>
-    <div class="contactus">
-    <section>
+    <div class="aside2"></div>
+    <section class="contactus">
         <h2>Contact us:</h2>
             <form action="process.php" method="POST">
                 <label>Name</label>
@@ -135,24 +137,21 @@
                     <button>RESET</button>
             </form>
     </section>
-    </div>
-    <hr>
-    <section>
-        <div class="aboutus">
+    <div class="aside3"></div>
+    <section class="aboutus">
         <h2>About us:</h2>
-            <p>
+            <p class="p1">
                 Megarocket SA gym was founded in 1995 by a former Olympic athlete named Max Strong.
                 Max had always been passionate about fitness and wanted to create a gym that would provide
                 people with a welcoming and inclusive environment to pursue their fitness goals.
             </p>
-            <p>
+            <p class="p2">
                 Over the years, Megarocket SA grew into one of the most popular gyms in the city,
                 with a thriving community of members who were passionate about fitness.
                 Max continued to run the gym until he retired in 2020.
             </p>
-        <article>
-            <div class="Outthoughts">
-            <h3>Out thoughts</h3>
+        <article class="ourthoughts">
+            <h3>Our thoughts</h3>
                 <img class= imggirlatgym alt="Girl at a gym" src="..\assets\images\girl-at-the-gym.png">
                 <p>
                     At Megarocket SA, we believe that fitness is not just a hobby, it's a lifelong journey.
@@ -162,11 +161,10 @@
                     We believe that fitness is not a one-size-fits-all solution. That's why we offer a wide range of
                     classes and services to cater to every individual's unique needs and preferences.
                 </p>
-            </div>
         </article>
-        <article>
-            <h3>We are family</h3>
-                <img class= alt="Gym elements" src="..\assets\images\gym-elements.png">
+        <article class="wearefamily">
+            <h3>We are a family</h3>
+                <img class= imgwearefamily alt="Gym elements" src="..\assets\images\gym-elements.png">
                 <p>
                     We're not just a gym - we're a family. At Megarocket SA, you'll find a supportive and
                     welcoming community that will keep you motivated and inspired to reach your goals.
@@ -174,12 +172,11 @@
         </article>
         </div>
     </section>
-    </div>
-    <hr>
-    <div class="gymsection">
-    <section>
+    <div class="aside4"></div>
+    <section class="gymsection">
         <h2>GYM Section</h2>
-            <div class="block1">
+            <div class="row2">
+                <div class="column2">
                 <h4>Activities</h4>
                     <ol>
                         <li>Crossfit</li>
@@ -188,7 +185,7 @@
                         <li>Musculation</li>
                     </ol>
                 </div>
-            <div class="block2">
+            <div class="column2">
             <h4>Black Membership</h4>
                 <ol>
                     <li>Free access to musculation room</li>
@@ -197,7 +194,7 @@
                     <li>Grid visualization</li>
                 </ol>
             </div>
-            <div class="block3">
+            <div class="column2">
             <h4>Classic Membership</h4>
                 <ol>
                     <li>Free access to musculation room</li>
@@ -205,23 +202,21 @@
                     <li>Grid visualization</li>
                 </ol>
             </div>
-            <div class="block4">
+            <div class="column2">
             <h4>Only classes membership</h4>
                 <ol>
                     <li>Free access to classes with pre-inscription</li>
                     <li>Grid visualization</li>
                 </ol>
             </div>
+            </div>
     </section>
-    </div>
     </main>
-    <div class="footer">
-    <footer>
+    <footer class="footer">
         <img alt="Twitter" src="..\assets\images\vectortw.png">
         <img alt="Instagram" src="..\assets\images\vectorig.png">
         <img alt="Facebook" src="..\assets\images\vectorfb.png">
         <p id="footerText">Copyright 2023 MegaRocket SA. All rights reserved.</p>
     </footer>
-    </div>
 </body>
 </html>
