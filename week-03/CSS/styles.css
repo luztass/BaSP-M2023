@@ -34,7 +34,7 @@
     box-sizing: border-box;
     float:left;
     width: 200px;
-    height: 3400px;
+    height:3200px;
     margin-bottom:20%;
     background-color: #373867;
     text-align: left;
@@ -42,10 +42,10 @@
 a{
     position:relative;
     border-width: 0, 1px, 0, 0;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     font-weight: bold;
-    text-decoration: none;
     color:#c4c4c4; 
 }
 .links{
@@ -67,8 +67,8 @@ a:hover{
 .sidebar ul{
     padding-left:10px;
     padding-bottom:20px;
-    list-style:none;  
     margin-bottom:10px; 
+    list-style:none;  
 }
 .contact{
     color:#46A37C;
@@ -143,30 +143,31 @@ a:hover{
     float:right;
     box-sizing: border-box;
     margin-right:50px;
+    margin-left:20px;
     width:500px;
     height:350px;
-    margin-left:20px;
 }
 .clearfix::after{
     clear:both;
     display: table;
 }
 .aside{
-    margin-top: 60px;
     height:2px;
-    width:90%;
+    width:900px;
+    margin-top:90px;
+    margin-left:300px;
     background-color: #D9D9D9;
 }
 .meetus{
-    color: rgba(0,0,0,0.75);
+    padding:50px;
+    margin-left: 300px;
+    margin-top:0px;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 21.09px;
-    padding:50px;
-    margin-left: 300px;
-    margin-top:0px;
+    color: rgba(0,0,0,0.75);
 }
 .meetus h2{
     position:relative;
@@ -190,26 +191,23 @@ a:hover{
 .column{
     position:relative;
     float:left;
-    margin-right:20px;
+    box-sizing: border-box;
     width:350px;
     height: 200px;
     margin-bottom:20px;
-    box-sizing: border-box;
-    
     margin-right:20px;
-    margin-right:50px;
-    margin-bottom:20px;
 }
 .column img {
     float:left;
     margin-right:20px;
-    width:150px;
     margin-bottom:20px;
+    width:150px;
 }
 .aside2{
     height:2px;
-    width:90%;
+    width:900px;
     margin-top:400px;
+    margin-left:300px;
     background-color: #D9D9D9;
 }
 .contactus{
@@ -239,15 +237,14 @@ a:hover{
 }
 .contactus p{
     position:relative;
-    padding:10px;
-    
+    padding:10px;  
 }
 .contactus button {
     position:relative;
     padding:10px;
     margin:10px;
-    background-color: #373867;
     border-radius: 2px;
+    background-color: #373867;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
 }
@@ -255,9 +252,10 @@ a:hover{
    background-color: #46A37C;
 }
 .aside3{
-    margin-top:10px;
     height:2px;
-    width:90%;
+    width:900px;
+    margin-top:50px;
+    margin-left:300px;
     background-color: #D9D9D9;
 }
 .aboutus{
@@ -275,15 +273,12 @@ a:hover{
 }
 .aboutus p{
     position:relative;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 300px;
+    margin: 20px 50px 20px 300px;
     width:820px;
     font:normal 17px Arial, Helvetica, sans-serif;
     text-align: justify;
     line-height:21.09px;
-    color:rgba(0,0,0,0.75);
-    margin-right:50px;   
+    color:rgba(0,0,0,0.75);   
 }
 .aboutus h3{
     position:relative;
@@ -299,7 +294,6 @@ a:hover{
     position:relative;
     width:500px;
     padding-left:300px;
-    margin-bottom:10px;
     font:normal 17px Arial, Helvetica, sans-serif;
     text-align: justify;
     line-height:21.09px;
@@ -309,48 +303,54 @@ a:hover{
     position:absolute;
     padding-left:90px;
 }
+.p2{
+    position:relative;
+    width: 300px;
+}
+.img2{
+    position:absolute;
+    float:right;
+    box-sizing: border-box;
+    margin-left:600px;
+}
 .wearefamily h3{
     position:relative;
-    padding-top: 90px;
+    padding-top:100px;
     padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
     color:#2F3058;
 }
+.wearefamily p::after{
+    position:absolute;
+    box-sizing: border-box;
+}
 .wearefamily p{
     position:relative;
-    width:500px;
-    padding-right:300px;
-    padding-top:5px;
-    padding-bottom: 90px;
-    margin-bottom: 50px;;
+    width:400px;
+    margin-bottom:10px;
     font:normal 17px Arial, Helvetica, sans-serif;
     text-align: justify;
     line-height:21.09px;
     color:rgba(0,0,0,0.75);
 }
-.imgwearefamily{
-    position:absolute;
-    box-sizing: border-box;
-    padding-left:90px;
-    padding-bottom:500px;
-    margin-right:50px;
-    margin-left:600px; 
-    margin-bottom:90px;
+.Megarocket{
+    font-weight: bold;
 }
 .aside4{
-    margin-top: 100px;
     height:2px;
-    width:90%;
+    width:900px;
+    margin-top:80px;
+    margin-left:300px;
     background-color: #D9D9D9;
 }
 .gymsection{
-    color:#2F3058;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
     padding-left:300px;
     margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#2F3058;
 }
 .gymsection h2{
     position:relative;
@@ -362,10 +362,10 @@ a:hover{
     color:#2F3058;
 }
 .gymsection h4{
-    text-align: left;
+    margin-top:10px;
     padding-left: 10px;
     font-size: 25px;
-    margin-top:10px;
+    text-align: left;
 }
 .row2::after{
     clear:both;
@@ -374,16 +374,16 @@ a:hover{
 .column2{
     position:relative;
     float:left;
+    box-sizing: border-box; 
+    box-shadow: 5px 5px 5px #c4c4c4;
     margin-right:20px;
+    margin-bottom:20px;
     padding-left:30px;
     padding-bottom:10px;
     width:420px;
     height: 192px;
-    margin-bottom:20px;
     border:1px solid #46A37C;
     border-radius: 10px;
-    box-sizing: border-box; 
-    box-shadow: 5px 5px 5px #c4c4c4;
     line-height: 20px;
 }
 .column2 h4{
@@ -399,8 +399,8 @@ a:hover{
     margin-left:200px;
     overflow: hidden;
     background-color:#2C2C3A; 
-    color:#46A37C;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     text-align: center;
+    color:#46A37C;
 }
