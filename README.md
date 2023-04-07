@@ -47,8 +47,7 @@ These were the steps to follow:
 - Add in the root folder "BaSP-M2023" a Readme.md file.
 - Make commits and push with progress.
 
-https://luztass.github.io/BaSP-M2023/week-02/index.html
-
+[BaSP-M2023/week-02/index.html](https://luztass.github.io/BaSP-M2023/week-02/index.html)
 __________________________________________________
 ## Week 03
 
@@ -69,7 +68,7 @@ This week we had to follow these steps below:
 
 In order to learn how to use CSS (Cascading Style Sheets) we had material available so as to have enough practice. It was important to learn new syntax (selectors, declarations, properties and values) and acquire enough knowledge to be able to fix the first HTML and style it to achieve an identical look to the landing page of MegaRocket SA's webpage.
 
-https://luztass.github.io/BaSP-M2023/week-03/index.html
+[BaSP-M2023/week-03/index.html](https://luztass.github.io/BaSP-M2023/week-03/index.html)
 _______________________________________________________
 
 ## Week 04
@@ -105,7 +104,7 @@ This week we had to follow these steps below:
 - Update the Readme document to include the Github Pages link to view the output.
 
 
-https://luztass.github.io/BaSP-M2023/week-04/index.html
+[BaSP-M2023/week-04/index.html](https://luztass.github.io/BaSP-M2023/week-04/index.html)
 
 
 ## Author

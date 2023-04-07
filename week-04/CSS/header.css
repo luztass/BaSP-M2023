@@ -1,0 +1,24 @@
+.header{
+    background-color: #373867;
+    height:84px;
+}
+.menuicon {
+    display:flex;
+    align-self: flex-start;
+    padding-top:5px;
+}
+.container{
+    display:flex;
+    align-self:center;
+    padding-bottom: 10px;
+}
+.mega {
+    font-size: 30px;
+    font-weight: bold;
+    color: #46A37C
+}
+.rocket{
+    color:#AACF9B;
+    font-size: 30px;
+}
+
