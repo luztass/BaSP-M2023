@@ -21,9 +21,13 @@
         </div>
     </header>
     <section class="introduction">
+        <div class="container2">
             <h1><span class="mega">Mega</span>Rocket GYM</h1>
                 <div class="img1"><img class= "img1" alt="Gym Weights" src="..\assets\images\gym-weight.png"></div>
-                <div class="subtitle"><h2>Launch your fitness journey with <span class="MegaRocket"> MegaRocket</span></h2></div>
+                <div class="subtitle">
+                    <h2>Launch your fitness journey</h2>
+                    <h2>with <span class="MegaRocket"> MegaRocket</span></h2>
+                </div>
                     <p>
                     Welcome to Megarocket SA, where we believe in creating a holistic approach to fitness.
                     Our gym is a state-of-the-art facility that caters to all your fitness needs. Whether
@@ -40,9 +44,140 @@
                     At Megarocket SA, we believe that fitness is a lifestyle, not just a hobby.
                     Join us today and start yourjourney towards a healthier, happier you.
                     </p>
+        </div>
     </section>
     <div class="aside"></div>
-    
+    <section class="meetus">
+        <h2>Meet us:</h2>
+            <div class="meetus_container">
+                <img class="meetus_img" alt="Book an appointment" src="..\assets\images\booking-symbol.png" width="150px">
+                <h3>Book an appointment</h3>
+                <p>Book your turn for a visit, come and meet us!</p>
+                <img class="meetus_img" alt="schedule" src="..\assets\images\calendar-symbol.png" width="150px">
+                <h3>Attention Schedule</h3>
+                <p>You will find all our schedules, adapted to your needs.</p>
+                <img class="meetus_img" alt="Membership" src="..\assets\images\membership-symbol.png" width="150px">
+                <h3>Membership Management</h3>
+                 <p>
+                    Here you can manage your membership,
+                    we have a variety of them, take a look in the GYM section below.
+                </p>
+                <img class="meetus_img" alt="Contact form" src="..\assets\images\contact-symbol.png" width="150px">
+                <h3>Contact form & suggestions</h3>
+                <p>Write to us, our team will always be willing to listen to you!</p>
+            </div>
+    </section>
+    <div class="aside"></div>
+    <section class="contactus">
+        <div class="contactus_container">
+        <h2>Contact us:</h2>
+            <form action="process.php" method="POST">
+                <label class="label">Name</label>
+                <input type="text" name="Name" placeholder="Name">
+                <label class="label">Last Name</label>
+                <input type="text" name="lastName" placeholder="Last Name">
+                <label class="label">Email</label>
+                <input type="email" name="email" placeholder="Email">
+                <label class="label">Motive</label>
+                <p>
+                    <input type="checkbox" name="option1" value="I want to know about memberships and costs.">
+                    <label for="option1"> I want to know about memberships and costs.</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="option2"value="I want to make a question or a suggestion.">
+                    <label for="option2"> I want to make a question or a suggestion.</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="option3" value="I want to make a claim.">
+                    <label for="option3">I want to make a claim.</label>
+                </p>
+                <p>
+                <action="process.php" method="POST">
+                <label>Message</label>
+                <textarea name="message" placeholder="Message"></textarea>
+                </p>
+                    <button>SEND MESSAGE</button>
+                    <button>RESET</button>
+            </form>
+        </div>
+    </section>
+    <div class="aside"></div>
+    <section class="aboutus">
+        <h2>About us:</h2>
+            <p class="p1">
+                <span class=Megarocket>Megarocket SA</span> gym was founded in 1995 by a former Olympic
+                athlete named Max Strong. Max had always been passionate about fitness and wanted to create
+                a gym that would provide people with a welcoming and inclusive environment to pursue their
+                fitness goals.
+            </p>
+            <p>
+                Over the years, <span class=Megarocket>Megarocket SA</span> grew into one of the most popular gyms in the city,
+                with a thriving community of members who were passionate about fitness.
+                Max continued to run the gym until he retired in 2020.
+            </p>
+        <article class="ourthoughts">
+            <h3>Our thoughts</h3>
+                <img class= imggirlatgym alt="Girl at a gym" src="..\assets\images\girl-at-the-gym.png">
+                <p>
+                    At <span class=Megarocket>Megarocket SA</span>, we believe that fitness is not just a hobby, it's a lifelong journey.
+                    Our expert trainers are committed to helping you achieve your goals.
+                </p>
+                <div class=p2>
+                <p>
+                    We believe that fitness is not a one-size-fits-all solution. That's why we offer a wide range of
+                    classes and services to cater to every individual's unique needs and preferences.
+                </p>
+                </div>
+        </article>
+        <article class="wearefamily">
+            <h3>We are a family</h3>
+                <p>
+                    <img class= img2 alt="Gym elements" src="..\assets\images\gym-elements.png">
+                    We're not just a gym - we're a family. At <span class=Megarocket>Megarocket SA</span>, you'll find a supportive and
+                    welcoming community that will keep you motivated and inspired to reach your goals.
+                </p>
+        </article>
+        </div>
+    </section>
+    <div class="aside"></div>
+    <section class="gymsection">
+        <h2>GYM Section</h2>
+            <div class="row2">
+                <div class="column2">
+                <h4>Activities</h4>
+                    <ol>
+                        <li>Crossfit</li>
+                        <li>Functional</li>
+                        <li>Box</li>
+                        <li>Musculation</li>
+                    </ol>
+                </div>
+            <div class="column2">
+            <h4>Black Membership</h4>
+                <ol>
+                    <li>Free access to musculation room</li>
+                    <li>Free access to classes with pre-inscription</li>
+                    <li>Personalized follow up with a trainer.</li>
+                    <li>Grid visualization</li>
+                </ol>
+            </div>
+            <div class="column2">
+            <h4>Classic Membership</h4>
+                <ol>
+                    <li>Free access to musculation room</li>
+                    <li>Personalized follow up with a trainer</li>
+                    <li>Grid visualization</li>
+                </ol>
+            </div>
+            <div class="column2">
+            <h4>Only classes membership</h4>
+                <ol>
+                    <li>Free access to classes with pre-inscription</li>
+                    <li>Grid visualization</li>
+                </ol>
+            </div>
+            </div>
+    </section>
     <footer class="footer">
         <img alt="Twitter" src="..\assets\images\vectortw.png">
         <img alt="Instagram" src="..\assets\images\vectorig.png">

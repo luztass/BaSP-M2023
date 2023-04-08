@@ -1,21 +1,15 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-}
 body{
     font-family:Arial, Helvetica, sans-serif;
     line-height: 1.5;
     background-color: #FFFEFE;
 }
-.container{
-    max-width: 390px ;
-    margin: 0 auto;
-    padding: 0 30px;
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .introduction h1{
-    display:flex;
-    justify-content: center;
     padding-top:20px;
     font-family:Arial, Helvetica, sans-serif;
     font-size:32px;
@@ -27,37 +21,162 @@ body{
     color:#626380;
 }
 .img1{
-    display: flex;
-    align-self: center;
-    padding-top: 20px;
-    padding-bottom: 0%;
+    padding-top: 12px;
     width:306px;
     height:275px;
 }
 .subtitle{
-    display: flex;
-    justify-content: center;
-    padding-top: 0;
+    padding-top: 34px;
+    padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:20px;
-    line-height: 23.44;
+    font-weight: 600;
+    line-height:normal;
     color:#2F3058;
 }
 .MegaRocket{
-    font-weight: bolder;
+    font-weight: 800;
 }
 .introduction p{
     display: flex;
     justify-content: center;
-    font:normal 14px Arial, Helvetica, sans-serif;
-    text-align: justify;
-    line-height:21.09px;
+    width:290px;
+    font: 14px Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height:16px;
     color:rgba(0,0,0,0.75);
 }
 .aside{
+    margin-left: 20%;
+    margin-top: 10%;
     height:2px;
-    width:900px;
-    margin-top:90px;
-    margin-left:300px;
+    width:60%;
     background-color: #D9D9D9;
+}
+.meetus_container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20% ;
+}
+.meetus h2{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20%;
+    padding-top:45px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 23.44px;
+    color:#2F3058;
+}
+.meetus h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#373867;
+}
+.meetus_img{
+    display: flex;
+    justify-content: flex-start;
+    width: 91.8px;
+    height:91.8px;
+}
+.contactus h2{
+    padding-top:131px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:#2F3058;
+}
+.contactus_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#373867;
+    font-weight: bold;
+}
+
+
+
+
+.aboutus h2{
+    margin-left: 20%;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:#2F3058;
+}
+.aboutus p{
+    width:299px;
+    padding-left:20%;
+    font:normal 14px Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height:21.09px;
+    color:#6D6D6D;   
+}
+.aboutus h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color:#373867;
+}
+.Megarocket{
+    font-weight: bold;
+}
+.imggirlatgym{
+    padding-left: 20%;
+    width: 111px;
+    height: 83px;
+}
+.img2{
+    padding-left: 20%;
+    width:95px;
+    height: 89px;
+}
+
+.gymsection{
+    margin-top: 82px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#2F3058;
+}
+.gymsection h2{
+    margin-left: 20%;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:#2F3058;
+}
+.gymsection h4{
+    margin-top:10px;
+    padding-left: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+.column2{
+    box-sizing: border-box; 
+    box-shadow: 5px 5px 5px #c4c4c4;
+    padding-left: 20px;
+    width:327px;
+    height: 192px;
+    border:1px solid #46A37C;
+    border-radius: 10px;
+    line-height: 20px;
+}
+.column2 h4{
+    padding-bottom: 20px;
+    font-weight: bold;
 }
