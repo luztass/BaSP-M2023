@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,11 +15,44 @@
 <body>
     <header class="header">
         <div class="menuicon"><img alt="menu" src="..\assets\images\menu-icon.png"></div>
-        <div class="container">
-        <img class="logo" alt="logomegarocket" src="..\assets\images\logo.png">
-            <h1><span class="mega">Mega</span><span class="rocket">Rocket</span></h1>
-        </div>
+        <div><img alt="logomegarocket" src="..\assets\images\logo.png"></div>
+        <div><h1><span class="mega1">Mega</span><span class="rocket">Rocket</span></h1></div>
     </header>
+    <aside class="sidebar">
+        <div class="links">
+            <ul>
+                <li><a href="homeLink">Home</a></li>
+                <div class="division"></div>
+                <li><a href="singUpLink">Sign Up</a></li>
+                <div class="division"></div>
+                <li><a href="loginLink">Login</a></li>
+                <div class="division"></div>
+                <li><a href="contactLink"><span class="contact">Contact</span></a></li>
+                <img class="arrow" alt="arrow" src="..\assets\images\arrow.png">
+                <div class="division"></div>
+            </ul>
+        </div>
+            <a href="getInTouchLink"><span class="getintouch">Get in touch</span></a>
+            <div class="contactinfo">
+            <ul>
+                <li>
+                    <img class= img alt="Email symbol" src="..\assets\images\email-logo.png">
+                    <a href="mailLink">RocketSA@gmail.com</a>
+                </li>
+                <div class="division"></div>
+                <li>
+                    <img class= img alt="Phone symbol" src="..\assets\images\phone-logo.png">
+                    <a href="phoneLink">(000) 000-000000</a>
+                </li>
+                <div class="division"></div>
+                <li>
+                    <img class= img alt="House symbol" src="..\assets\images\address-logo.png">
+                    <a href="addressLink">Somewhere, Zeballos 1410</a>
+                </li>
+                <div class="division"></div>
+            </ul>
+            </div>
+    </aside>
     <section class="introduction">
         <div class="container2">
             <h1><span class="mega">Mega</span>Rocket GYM</h1>
@@ -49,101 +82,130 @@
     <div class="aside"></div>
     <section class="meetus">
         <h2>Meet us:</h2>
-            <div class="meetus_container">
-                <img class="meetus_img" alt="Book an appointment" src="..\assets\images\booking-symbol.png" width="150px">
+            <div class="meetus-container">
+                <div class="meetus-box">
+                <img class="meetus-img" alt="Book an appointment" src="..\assets\images\booking-symbol.png">
                 <h3>Book an appointment</h3>
                 <p>Book your turn for a visit, come and meet us!</p>
-                <img class="meetus_img" alt="schedule" src="..\assets\images\calendar-symbol.png" width="150px">
+                </div>
+                <div class="meetus-box">
+                <img class="meetus-img" alt="schedule" src="..\assets\images\calendar-symbol.png">
                 <h3>Attention Schedule</h3>
                 <p>You will find all our schedules, adapted to your needs.</p>
-                <img class="meetus_img" alt="Membership" src="..\assets\images\membership-symbol.png" width="150px">
+                </div>
+                <div class="meetus-box">
+                <img class="meetus-img" alt="Membership" src="..\assets\images\membership-symbol.png">
                 <h3>Membership Management</h3>
                  <p>
                     Here you can manage your membership,
                     we have a variety of them, take a look in the GYM section below.
                 </p>
-                <img class="meetus_img" alt="Contact form" src="..\assets\images\contact-symbol.png" width="150px">
+                </div>
+                <div class="meetus-box">
+                <img class="meetus-img" alt="Contact form" src="..\assets\images\contact-symbol.png">
                 <h3>Contact form & suggestions</h3>
                 <p>Write to us, our team will always be willing to listen to you!</p>
+                </div>
             </div>
     </section>
     <div class="aside"></div>
     <section class="contactus">
-        <div class="contactus_container">
         <h2>Contact us:</h2>
+        <div class="contactus_container">
             <form action="process.php" method="POST">
-                <label class="label">Name</label>
-                <input type="text" name="Name" placeholder="Name">
-                <label class="label">Last Name</label>
-                <input type="text" name="lastName" placeholder="Last Name">
-                <label class="label">Email</label>
-                <input type="email" name="email" placeholder="Email">
-                <label class="label">Motive</label>
-                <p>
-                    <input type="checkbox" name="option1" value="I want to know about memberships and costs.">
-                    <label for="option1"> I want to know about memberships and costs.</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="option2"value="I want to make a question or a suggestion.">
-                    <label for="option2"> I want to make a question or a suggestion.</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="option3" value="I want to make a claim.">
-                    <label for="option3">I want to make a claim.</label>
-                </p>
-                <p>
-                <action="process.php" method="POST">
-                <label>Message</label>
-                <textarea name="message" placeholder="Message"></textarea>
-                </p>
-                    <button>SEND MESSAGE</button>
-                    <button>RESET</button>
+                <ul class="wrapper">
+                    <li class="form-row">
+                        <label for="name">Name</label>
+                    </li>
+                    <li>
+                        <input type="text" name="Name" placeholder="Name">
+                    </li>
+                    <li class="form-row">
+                        <label for="lastName">Last Name</label>
+                    </li>
+                    <li>
+                        <input type="text" name="lastName" placeholder="Last Name">
+                    </li>
+                    <li class="form-row">
+                        <label for="email">Email</label>
+                    </li>
+                    <li>
+                        <input type="email" name="email" placeholder="Email">
+                    </li>
+                    <li class="form-row">
+                        <label for="Motive">Motive</label>
+                    </li>
+                    <label class="option">
+                        <input type="checkbox" checked="checked">I want to know about memberships and costs.
+                    </label>
+                    <label class="option">
+                        <input type="checkbox">I want to make a question or a suggestion.
+                    </label>
+                    <label class="option">
+                        <input type="checkbox">I want to make a claim.
+                    </label>
+
+                    <li class="form-row">
+                        <label for="message">Message</label>
+                    <li class="form-row">
+                        <textarea name="message" placeholder="Start here..."></textarea>
+                    </li>
+                    <li class="form-row">
+                        <button type="send_message">SEND MESSAGE</button>
+                        <button type="reset">RESET</button>
+                    </li>
+                </ul>
             </form>
         </div>
     </section>
     <div class="aside"></div>
     <section class="aboutus">
-        <h2>About us:</h2>
-            <p class="p1">
-                <span class=Megarocket>Megarocket SA</span> gym was founded in 1995 by a former Olympic
-                athlete named Max Strong. Max had always been passionate about fitness and wanted to create
-                a gym that would provide people with a welcoming and inclusive environment to pursue their
-                fitness goals.
+        <div class="aboutus-container">
+            <h2>About us:</h2>
+            <p>
+            <span class=Megarocket>Megarocket SA</span> gym was founded in 1995 by a former Olympic
+            athlete named Max Strong. Max had always been passionate about fitness and wanted to create
+            a gym that would provide people with a welcoming and inclusive environment to pursue their
+            fitness goals.
             </p>
             <p>
-                Over the years, <span class=Megarocket>Megarocket SA</span> grew into one of the most popular gyms in the city,
-                with a thriving community of members who were passionate about fitness.
-                Max continued to run the gym until he retired in 2020.
+            Over the years, <span class=Megarocket>Megarocket SA</span> grew into one of the most popular gyms in the city,
+            with a thriving community of members who were passionate about fitness.
+            Max continued to run the gym until he retired in 2020.
             </p>
-        <article class="ourthoughts">
-            <h3>Our thoughts</h3>
-                <img class= imggirlatgym alt="Girl at a gym" src="..\assets\images\girl-at-the-gym.png">
+        </div>
+        <h3>Our thoughts</h3>
+        <div class="ourthoughts">
+            <div class="image">
+                <img class="girl-at-gym" alt="Girl at a gym" src="..\assets\images\girl-at-the-gym.png">
+            </div>
+            <div class="text">
                 <p>
-                    At <span class=Megarocket>Megarocket SA</span>, we believe that fitness is not just a hobby, it's a lifelong journey.
-                    Our expert trainers are committed to helping you achieve your goals.
+                At <span class=Megarocket>Megarocket SA</span>, we believe that fitness is not just a hobby,
+                it's a lifelong journey.Our expert trainers are committed to helping you achieve your goals.
+                We believe that fitness is not a one-size-fits-all solution. That's why we offer a wide range
+                of classes and services to cater to every individual's unique needs and preferences.
                 </p>
-                <div class=p2>
+            </div>
+        </div>
+        <h3>We are a family</h3>
+        <div class="wearefamily">
+           <div class="image">
+                <img class= img2 alt="Gym elements" src="..\assets\images\gym-elements.png">
+           </div>
+           <div class="text">
                 <p>
-                    We believe that fitness is not a one-size-fits-all solution. That's why we offer a wide range of
-                    classes and services to cater to every individual's unique needs and preferences.
+                We're not just a gym - we're a family. At <span class=Megarocket>Megarocket SA</span>, you'll find a supportive and
+                welcoming community that will keep you motivated and inspired to reach your goals.
                 </p>
-                </div>
-        </article>
-        <article class="wearefamily">
-            <h3>We are a family</h3>
-                <p>
-                    <img class= img2 alt="Gym elements" src="..\assets\images\gym-elements.png">
-                    We're not just a gym - we're a family. At <span class=Megarocket>Megarocket SA</span>, you'll find a supportive and
-                    welcoming community that will keep you motivated and inspired to reach your goals.
-                </p>
-        </article>
+           </div>  
         </div>
     </section>
     <div class="aside"></div>
     <section class="gymsection">
         <h2>GYM Section</h2>
-            <div class="row2">
-                <div class="column2">
+            <div class="row">
+                <div class="box">
                 <h4>Activities</h4>
                     <ol>
                         <li>Crossfit</li>
@@ -152,7 +214,7 @@
                         <li>Musculation</li>
                     </ol>
                 </div>
-            <div class="column2">
+            <div class="box">
             <h4>Black Membership</h4>
                 <ol>
                     <li>Free access to musculation room</li>
@@ -161,7 +223,7 @@
                     <li>Grid visualization</li>
                 </ol>
             </div>
-            <div class="column2">
+            <div class="box">
             <h4>Classic Membership</h4>
                 <ol>
                     <li>Free access to musculation room</li>
@@ -169,7 +231,7 @@
                     <li>Grid visualization</li>
                 </ol>
             </div>
-            <div class="column2">
+            <div class="box">
             <h4>Only classes membership</h4>
                 <ol>
                     <li>Free access to classes with pre-inscription</li>

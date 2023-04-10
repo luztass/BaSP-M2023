@@ -1,26 +1,24 @@
 .header{
+    display: flex;
+    justify-content: center;
     background-color: #373867;
     height:84px;
+    width:100%;
 }
-.menuicon {
-    display:flex;
-    align-self: flex-start;
-    padding-top:5px;
+.header > div{
+   padding:5px;
+   margin-top:10px;
 }
-.container{
-    display:flex;
-    align-self:center;
-    padding-bottom: 10px;
-    margin: 0 auto;
-    padding: 0 30px;
-}
-.mega {
+
+.mega1{
     font-size: 30px;
     font-weight: bold;
-    color: #46A37C
+    color: #46A37C;
 }
 .rocket{
     color:#AACF9B;
     font-size: 30px;
 }
+
+
 
